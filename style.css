@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 3rem 1.25rem;
+  background: #f6f8fa;
+  color: #24292f;
+  font: 16px/1.5 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin-bottom: 0.25rem;
+  font-size: clamp(2rem, 6vw, 2.75rem);
+}
+
+header p {
+  margin-top: 0;
+  color: #57606a;
+}
+
+#repository-list {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.repository {
+  padding: 1.25rem;
+  border: 1px solid #d0d7de;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.repository a {
+  color: #0969da;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.repository a:hover,
+.repository a:focus-visible {
+  text-decoration: underline;
+}
+
+.repository p {
+  margin: 0.5rem 0;
+  color: #57606a;
+}
+
+.repository time {
+  color: #6e7781;
+  font-size: 0.875rem;
+}
